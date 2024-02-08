@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+#title {
+  text-align: center;
+  background-color: rgb(249, 232, 217);
+  padding: 2rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  /* filter: drop-shadow(5px 5px 30px rgb(17, 13, 13)); */
+  box-shadow: 2px 2px 20px rgb(77, 75, 75), 5px 5px 30px rgb(17, 13, 13);
+}
+.container {
+  max-width: 95vw !important;
+  transition: filter 0ms ease-in-out 1ms;
+}
+.card {
+  margin: 1rem;
+  text-align: center;
+  background-color: rgb(231, 197, 173) !important;
+  box-shadow: 2px 2px 20px rgb(77, 75, 75), 5px 5px 30px rgb(17, 13, 13);
+  border-radius: 3rem !important;
+  height: 95% !important;
+}
+img {
+  padding: 1rem;
+}
+.card-header {
+  padding: 2rem !important;
+  background-color: rgb(33, 108, 110) !important;
+  color: #fff !important;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-radius: 3rem 3rem 0 0 !important;
+}
+.card-body {
+  margin-bottom: 2rem;
+}
+.card-text {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+button {
+  margin-top: 1rem !important;
+  padding: 1rem !important;
+  font-size: 1.2rem !important;
+  font-weight: bolder !important;
+  box-shadow: 2px 2px 10px rgb(77, 75, 75);
+}
+button:active {
+  transform: scale(0.8);
+}
+.display {
+  display: none;
+}
+/* .popoup {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  padding: 4rem;
+  background-color: #1772c2;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 2px 10px rgb(77, 75, 75);
+  transition: top 0ms ease-in-out 300ms, opacity 300ms ease-in-out,
+    margin-top 300ms ease-in-out 0ms;
+} */
+/*
+.popoup .close-btn {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  width: 2vw;
+  height: 2svh;
+  background-color: crimson;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+body .active-popup {
+  overflow: hidden;
+}
+body .active-popup .container {
+  filter: blur(5px);
+  background: rgba(0, 0, 0, 0.08);
+  transition: filter 0ms ease-in-out 1ms;
+}
+body .active-popup .popoup {
+  top: 50%;
+  opacity: 1;
+  margin-top: 1rem;
+  transition: top 0ms ease-in-out 0ms, opacity 300ms ease-in-out,
+    margin-top 300ms ease-in-out 0ms;
+} */
